@@ -1199,6 +1199,11 @@ ul {
     background: rgba(255, 255, 255, 0.15);
 }
 
+.newsletter-form__input.error {
+    border-color: var(--color-accent);
+    background: rgba(255, 107, 53, 0.1);
+}
+
 .footer__disclaimer {
     font-size: var(--font-size-xs);
     color: rgba(255, 255, 255, 0.5);
