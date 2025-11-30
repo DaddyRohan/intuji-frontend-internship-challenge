@@ -164,8 +164,10 @@
                 // Here you would typically send the email to a server
                 alert('Thank you for subscribing! We\'ll keep you updated.');
                 input.value = '';
+                input.classList.remove('error');
             } else {
                 alert('Please enter a valid email address.');
+                input.classList.add('error');
             }
         });
     }
